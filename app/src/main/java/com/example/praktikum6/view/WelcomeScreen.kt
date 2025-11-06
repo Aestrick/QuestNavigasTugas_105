@@ -56,7 +56,7 @@ fun WelcomeScreen(
                 painter = painterResource(id = R.drawable.__nayuta_chainsaw_man_drawn_by_gyunyu_gokugoku__c29bec06fdea86067ec5d38828bbc52c),
                 contentDescription = "Logo",
                 modifier = Modifier.fillMaxSize(),
-                contentScale = ContentScale.Crop // Agar gambar mengisi Box
+                contentScale = ContentScale.Crop
             )
         }
 
