@@ -1,4 +1,4 @@
-package com.example.praktikum6.view // <-- SUDAH DISESUAIKAN
+package com.example.praktikum6.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
