@@ -40,7 +40,6 @@ fun WelcomeScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.SpaceAround
     ) {
-        // --- SELAMAT DATANG ---
         Text(
             text = stringResource(R.string.welcome_title),
             fontSize = 32.sp,
