@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale // <-- IMPORT BARU
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -23,7 +24,7 @@ import com.example.praktikum6.R
 
 val DarkPurple = Color(0xFF6200EE)
 val LightPurple = Color(0xFFF3E5F5)
-val CustomColor1 = Color(0xFFD32F2F)
+val CustomColor1 = Color(0xFFD32F2F) // Merah untuk Nama
 val CustomColor2 = Color(0xFF1976D2) // Biru untuk NIM
 
 @Composable
@@ -39,6 +40,7 @@ fun WelcomeScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.SpaceAround
     ) {
+        // --- SELAMAT DATANG ---
         Text(
             text = stringResource(R.string.welcome_title),
             fontSize = 32.sp,
@@ -46,20 +48,21 @@ fun WelcomeScreen(
             color = DarkPurple
         )
 
-        // --- TEMPAT LOGO KAMU ---
+        // --- TEMPAT LOGO KAMU (SUDAH DIGANTI) ---
         Box(
-            modifier = Modifier.size(150.dp),
+            modifier = Modifier.size(200.dp), // Kita perbesar sedikit box-nya
             contentAlignment = Alignment.Center
         ) {
-            Text("Tempat Logo di sini", textAlign = TextAlign.Center)
-            /*
             Image(
-                painter = painterResource(id = R.drawable.nama_logomu), // Ganti ini nanti
-                contentDescription = "Logo"
+                // Panggil gambar dari drawable
+                painter = painterResource(id = R.drawable.__nayuta_chainsaw_man_drawn_by_gyunyu_gokugoku__c29bec06fdea86067ec5d38828bbc52c),
+                contentDescription = "Logo",
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop // Agar gambar mengisi Box
             )
-            */
         }
 
+        // --- NAMA DAN NIM ---
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
                 text = stringResource(R.string.welcome_name), // "Nashrul Fikri"
@@ -75,6 +78,7 @@ fun WelcomeScreen(
             )
         }
 
+        // --- TOMBOL SUBMIT ---
         Button(
             onClick = {
                 navController.navigate(Navigasi.Formulirku.name)
