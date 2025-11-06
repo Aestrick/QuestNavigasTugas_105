@@ -1,4 +1,4 @@
-package com.example.praktikum6.view //
+package com.example.praktikum6.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -21,7 +21,6 @@ import androidx.navigation.NavController
 import com.example.praktikum6.Navigasi
 import com.example.praktikum6.R
 
-// Warna dari screenshot
 val DarkPurple = Color(0xFF6200EE)
 val LightPurple = Color(0xFFF3E5F5)
 val CustomColor1 = Color(0xFFD32F2F) // Merah untuk Nama
