@@ -18,7 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.praktikum6.Navigasi // <-- SUDAH DISESUAIKAN
+import com.example.praktikum6.Navigasi
 import com.example.praktikum6.R // <-- SUDAH DISESUAIKAN
 
 // Warna dari screenshot
