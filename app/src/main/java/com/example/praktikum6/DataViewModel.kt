@@ -1,4 +1,4 @@
-package com.example.praktikum6 // <-- SUDAH DISESUAIKAN
+package com.example.praktikum6
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

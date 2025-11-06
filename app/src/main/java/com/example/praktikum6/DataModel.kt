@@ -1,6 +1,5 @@
-package com.example.praktikum6 // <-- SUDAH DISESUAIKAN
+package com.example.praktikum6
 
-// Model data untuk menyimpan hasil formulir
 data class DataFormulir(
     var nama: String = "",
     var alamat: String = "",

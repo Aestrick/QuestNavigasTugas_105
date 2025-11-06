@@ -24,8 +24,8 @@ import com.example.praktikum6.R
 
 val DarkPurple = Color(0xFF6200EE)
 val LightPurple = Color(0xFFF3E5F5)
-val CustomColor1 = Color(0xFFD32F2F) // Merah untuk Nama
-val CustomColor2 = Color(0xFF1976D2) // Biru untuk NIM
+val CustomColor1 = Color(0xFFD32F2F)
+val CustomColor2 = Color(0xFF1976D2)
 
 @Composable
 fun WelcomeScreen(
@@ -59,23 +59,23 @@ fun WelcomeScreen(
             )
         }
 
-        // --- NAMA DAN NIM ---
+
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
-                text = stringResource(R.string.welcome_name), // "Nashrul Fikri"
+                text = stringResource(R.string.welcome_name),
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Medium,
                 color = CustomColor1
             )
             Spacer(modifier = Modifier.height(8.dp))
             Text(
-                text = stringResource(R.string.welcome_nim), // "20230140105"
+                text = stringResource(R.string.welcome_nim),
                 fontSize = 18.sp,
                 color = CustomColor2
             )
         }
 
-        // --- TOMBOL SUBMIT ---
+
         Button(
             onClick = {
                 navController.navigate(Navigasi.Formulirku.name)
