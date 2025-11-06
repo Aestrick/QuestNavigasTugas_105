@@ -47,7 +47,6 @@ fun WelcomeScreen(
             color = DarkPurple
         )
 
-        // --- TEMPAT LOGO KAMU (SUDAH DIGANTI) ---
         Box(
             modifier = Modifier.size(200.dp), // Kita perbesar sedikit box-nya
             contentAlignment = Alignment.Center
