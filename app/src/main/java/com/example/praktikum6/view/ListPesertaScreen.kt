@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.example.praktikum6.DataViewModel // <-- SUDAH DISESUAIKAN
+import com.example.praktikum6.DataViewModel
 import com.example.praktikum6.Navigasi // <-- SUDAH DISESUAIKAN
 import com.example.praktikum6.R // <-- SUDAH DISESUAIKAN
 
