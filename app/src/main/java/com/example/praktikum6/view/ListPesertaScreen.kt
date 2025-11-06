@@ -18,7 +18,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.example.praktikum6.DataViewModel
 import com.example.praktikum6.Navigasi
-import com.example.praktikum6.R // <-- SUDAH DISESUAIKAN
+import com.example.praktikum6.R
 
 @Composable
 fun ListPesertaScreen(
