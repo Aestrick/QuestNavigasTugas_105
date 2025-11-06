@@ -23,7 +23,7 @@ import com.example.praktikum6.R
 
 val DarkPurple = Color(0xFF6200EE)
 val LightPurple = Color(0xFFF3E5F5)
-val CustomColor1 = Color(0xFFD32F2F) // Merah untuk Nama
+val CustomColor1 = Color(0xFFD32F2F)
 val CustomColor2 = Color(0xFF1976D2) // Biru untuk NIM
 
 @Composable
