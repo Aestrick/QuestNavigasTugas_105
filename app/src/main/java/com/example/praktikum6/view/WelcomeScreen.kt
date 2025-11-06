@@ -48,7 +48,7 @@ fun WelcomeScreen(
         )
 
         Box(
-            modifier = Modifier.size(200.dp), // Kita perbesar sedikit box-nya
+            modifier = Modifier.size(200.dp),
             contentAlignment = Alignment.Center
         ) {
             Image(
